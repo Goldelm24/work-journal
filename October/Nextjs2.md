@@ -1,6 +1,8 @@
 ## Learning about routing & navigation in Nextjs
 
-Dynamic routes is a route with a parameter. Below is an example of how it works 
+A Dynamic segment can be created by wrapping a folder's name in square brackets:
+`[folderName]`. Example: `[id]` or `[slug]`
+Dynamic routes is a route with a parameter. Below is an example of how it works using Typescript. One of the beauties of working with Typescript is that it makes it easier to catch and prevent certain types of bugs which helps improve code quality. 
 
 ```
 interface Props {
@@ -17,4 +19,3 @@ const PhotoDetail = ({ params: {id, photoId}}: Props) => {
 
 export default PhotoDetail;
 ```
-
