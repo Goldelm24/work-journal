@@ -23,3 +23,4 @@ export default PhotoDetail;
 ### Catch-all Segments
 Dynamic segments can be extended to catch-all susbsequent segments by adding an ellipsis inside the brackets. <br/>
 Example: `pages/products/[[...slug]]`
+
