@@ -2,7 +2,8 @@
 
 Dynamic routes is a route with a parameter. Below is an example of how it works 
 
-```interface Props {
+```
+interface Props {
     params: { id: number; photoId: number}
 }
 
