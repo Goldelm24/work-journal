@@ -56,3 +56,5 @@ const sortedUsers = sort(users).asc(
         </tbody>
       </table>
 ```
+ It only downloads the content of the target page. <br/> 
+ Caches pages on the client.
